@@ -31,7 +31,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let navController = UINavigationController(
             rootViewController: signInVC
         )
-
         window?.rootViewController = navController
         window?.makeKeyAndVisible()
         
