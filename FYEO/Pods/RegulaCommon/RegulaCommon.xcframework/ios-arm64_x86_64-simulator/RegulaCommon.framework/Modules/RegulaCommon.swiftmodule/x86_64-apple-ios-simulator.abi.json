@@ -1,0 +1,1058 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "RegulaCommon",
+    "printedName": "RegulaCommon",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RegulaCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RegulaCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RegulaCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RegulaLocalization",
+        "printedName": "RegulaLocalization",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "shared",
+            "printedName": "shared(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RegulaLocalization",
+                "printedName": "RegulaCommon.RegulaLocalization",
+                "usr": "c:@M@RegulaCommon@objc(cs)RGLCLocalization"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RegulaCommon@objc(cs)RGLCLocalization(cm)sharedForBundle:",
+            "mangledName": "$s12RegulaCommon0A12LocalizationC6shared3forACSo8NSBundleC_tFZ",
+            "moduleName": "RegulaCommon",
+            "static": true,
+            "objc_name": "sharedForBundle:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "languageLocaleCode",
+            "printedName": "languageLocaleCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RegulaCommon@objc(cs)RGLCLocalization(py)languageLocaleCode",
+            "mangledName": "$s12RegulaCommon0A12LocalizationC18languageLocaleCodeSSSgvp",
+            "moduleName": "RegulaCommon",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RegulaCommon@objc(cs)RGLCLocalization(im)languageLocaleCode",
+                "mangledName": "$s12RegulaCommon0A12LocalizationC18languageLocaleCodeSSSgvg",
+                "moduleName": "RegulaCommon",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RegulaCommon@objc(cs)RGLCLocalization(im)setLanguageLocaleCode:",
+                "mangledName": "$s12RegulaCommon0A12LocalizationC18languageLocaleCodeSSSgvs",
+                "moduleName": "RegulaCommon",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12RegulaCommon0A12LocalizationC18languageLocaleCodeSSSgvM",
+                "mangledName": "$s12RegulaCommon0A12LocalizationC18languageLocaleCodeSSSgvM",
+                "moduleName": "RegulaCommon",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "semanticContentAttribute",
+            "printedName": "semanticContentAttribute",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UISemanticContentAttribute",
+                "printedName": "UIKit.UISemanticContentAttribute",
+                "usr": "c:@E@UISemanticContentAttribute"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RegulaCommon@objc(cs)RGLCLocalization(py)semanticContentAttribute",
+            "mangledName": "$s12RegulaCommon0A12LocalizationC24semanticContentAttributeSo010UISemanticeF0Vvp",
+            "moduleName": "RegulaCommon",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UISemanticContentAttribute",
+                    "printedName": "UIKit.UISemanticContentAttribute",
+                    "usr": "c:@E@UISemanticContentAttribute"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RegulaCommon@objc(cs)RGLCLocalization(im)semanticContentAttribute",
+                "mangledName": "$s12RegulaCommon0A12LocalizationC24semanticContentAttributeSo010UISemanticeF0Vvg",
+                "moduleName": "RegulaCommon",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "localizedString",
+            "printedName": "localizedString(_:bundle:table:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@RegulaCommon@objc(cs)RGLCLocalization(im)localizedString:bundle:table:",
+            "mangledName": "$s12RegulaCommon0A12LocalizationC15localizedString_6bundle5tableSSSgSS_So8NSBundleCSgAGtF",
+            "moduleName": "RegulaCommon",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@RegulaCommon@objc(cs)RGLCLocalization",
+        "mangledName": "$s12RegulaCommon0A12LocalizationC",
+        "moduleName": "RegulaCommon",
+        "objc_name": "RGLCLocalization",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RegulaCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RegulaCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RegulaCommon.Private",
+        "printedName": "RegulaCommon.Private",
+        "declKind": "Import",
+        "moduleName": "RegulaCommon",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RegulaSupervisor",
+        "printedName": "RegulaSupervisor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "collectSnapshot",
+            "printedName": "collectSnapshot()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RegulaCommon@objc(cs)RGLCSupervisor(cm)collectSnapshot",
+            "mangledName": "$s12RegulaCommon0A10SupervisorC15collectSnapshot10Foundation4DataVyFZ",
+            "moduleName": "RegulaCommon",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Report",
+            "printedName": "Report",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "codes",
+                "printedName": "codes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12RegulaCommon0A10SupervisorC6ReportC5codess6UInt64Vvp",
+                "mangledName": "$s12RegulaCommon0A10SupervisorC6ReportC5codess6UInt64Vvp",
+                "moduleName": "RegulaCommon",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt64",
+                        "printedName": "Swift.UInt64",
+                        "usr": "s:s6UInt64V"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12RegulaCommon0A10SupervisorC6ReportC5codess6UInt64Vvg",
+                    "mangledName": "$s12RegulaCommon0A10SupervisorC6ReportC5codess6UInt64Vvg",
+                    "moduleName": "RegulaCommon",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final",
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "status",
+                "printedName": "status",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12RegulaCommon0A10SupervisorC6ReportC6statusSo8NSNumberCvp",
+                "mangledName": "$s12RegulaCommon0A10SupervisorC6ReportC6statusSo8NSNumberCvp",
+                "moduleName": "RegulaCommon",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12RegulaCommon0A10SupervisorC6ReportC6statusSo8NSNumberCvg",
+                    "mangledName": "$s12RegulaCommon0A10SupervisorC6ReportC6statusSo8NSNumberCvg",
+                    "moduleName": "RegulaCommon",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final",
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "meta",
+                "printedName": "meta",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12RegulaCommon0A10SupervisorC6ReportC4metaSSvp",
+                "mangledName": "$s12RegulaCommon0A10SupervisorC6ReportC4metaSSvp",
+                "moduleName": "RegulaCommon",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12RegulaCommon0A10SupervisorC6ReportC4metaSSvg",
+                    "mangledName": "$s12RegulaCommon0A10SupervisorC6ReportC4metaSSvg",
+                    "moduleName": "RegulaCommon",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final",
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(data:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RegulaCommon.RegulaSupervisor.Report?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Report",
+                        "printedName": "RegulaCommon.RegulaSupervisor.Report",
+                        "usr": "s:12RegulaCommon0A10SupervisorC6ReportC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12RegulaCommon0A10SupervisorC6ReportC4dataAESg10Foundation4DataV_tcfc",
+                "mangledName": "$s12RegulaCommon0A10SupervisorC6ReportC4dataAESg10Foundation4DataV_tcfc",
+                "moduleName": "RegulaCommon",
+                "objc_name": "initWithData:",
+                "declAttributes": [
+                  "Convenience",
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "init_kind": "Convenience"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Report",
+                    "printedName": "RegulaCommon.RegulaSupervisor.Report",
+                    "usr": "s:12RegulaCommon0A10SupervisorC6ReportC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12RegulaCommon0A10SupervisorC6ReportCAEycfc",
+                "mangledName": "$s12RegulaCommon0A10SupervisorC6ReportCAEycfc",
+                "moduleName": "RegulaCommon",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:12RegulaCommon0A10SupervisorC6ReportC",
+            "mangledName": "$s12RegulaCommon0A10SupervisorC6ReportC",
+            "moduleName": "RegulaCommon",
+            "objc_name": "RGLCSupervisorReport",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "superclassUsr": "c:objc(cs)NSObject",
+            "hasMissingDesignatedInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@RegulaCommon@objc(cs)RGLCSupervisor",
+        "mangledName": "$s12RegulaCommon0A10SupervisorC",
+        "moduleName": "RegulaCommon",
+        "objc_name": "RGLCSupervisor",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "rglc_color",
+            "printedName": "rglc_color(hex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@RegulaCommon@@objc(cs)UIColor(cm)rglc_colorFromHexString:",
+            "mangledName": "$sSo7UIColorC12RegulaCommonE10rglc_color3hexABSS_tFZ",
+            "moduleName": "RegulaCommon",
+            "static": true,
+            "objc_name": "rglc_colorFromHexString:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rglc_hexString",
+            "printedName": "rglc_hexString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@RegulaCommon@@objc(cs)UIColor(im)rglc_asHexString",
+            "mangledName": "$sSo7UIColorC12RegulaCommonE14rglc_hexStringSSyF",
+            "moduleName": "RegulaCommon",
+            "objc_name": "rglc_asHexString",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rglc_isValidHexColor",
+            "printedName": "rglc_isValidHexColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@RegulaCommon@@objc(cs)UIColor(cm)rglc_isValidHexColorString:",
+            "mangledName": "$sSo7UIColorC12RegulaCommonE20rglc_isValidHexColorySbSSFZ",
+            "moduleName": "RegulaCommon",
+            "static": true,
+            "objc_name": "rglc_isValidHexColorString:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/administratorregula\/builds\/3\/iOS_Common\/Sources\/Localization\/RegulaLocalization.swift",
+      "kind": "Dictionary",
+      "offset": 339,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/builds\/3\/iOS_Common\/Sources\/Localization\/RegulaLocalization.swift",
+      "kind": "Array",
+      "offset": 910,
+      "length": 10,
+      "value": "[\"-\", \"_\"]"
+    },
+    {
+      "filePath": "\/Users\/administratorregula\/builds\/3\/iOS_Common\/Sources\/Localization\/RegulaLocalization.swift",
+      "kind": "Dictionary",
+      "offset": 1199,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

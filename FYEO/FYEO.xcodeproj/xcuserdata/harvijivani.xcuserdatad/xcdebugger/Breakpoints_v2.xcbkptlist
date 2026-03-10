@@ -34,6 +34,36 @@
             endingLineNumber = "31"
             landmarkName = "bindViewModel()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1899B907-0982-437B-A0FE-5EAF31326673 - cb8f7a398d7683"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FYEO.ConnectViewController.bindViewModel() -&gt; ()"
+                  moduleName = "FYEO.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harvijivani/Downloads/FYEO_Modified-2/FYEO/Screens/Authentication/ConnectScreen/ConnectViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31">
+               </Location>
+               <Location
+                  uuid = "1899B907-0982-437B-A0FE-5EAF31326673 - e3447fceeee918f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in FYEO.ConnectViewController.bindViewModel() -&gt; ()"
+                  moduleName = "FYEO.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harvijivani/Downloads/FYEO_Modified-2/FYEO/Screens/Authentication/ConnectScreen/ConnectViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

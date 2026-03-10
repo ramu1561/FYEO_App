@@ -1,0 +1,44 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name RegulaCommon
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+@_exported import RegulaCommon
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension RegulaCommon.RegulaSupervisor {
+  @_hasMissingDesignatedInitializers @objc(RGLCSupervisorReport) final public class Report : ObjectiveC.NSObject {
+    @objc final public let codes: Swift.UInt64
+    @objc final public let status: Foundation.NSNumber
+    @objc final public let meta: Swift.String
+    @objc convenience public init?(data: Foundation.Data)
+    @objc deinit
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(RGLCLocalization) @objcMembers final public class RegulaLocalization : ObjectiveC.NSObject {
+  @objc(sharedForBundle:) public static func shared(for bundle: Foundation.Bundle) -> RegulaCommon.RegulaLocalization
+  @objc final public var languageLocaleCode: Swift.String?
+  @objc final public var semanticContentAttribute: UIKit.UISemanticContentAttribute {
+    @objc get
+  }
+  @objc deinit
+}
+extension RegulaCommon.RegulaLocalization {
+  @objc final public func localizedString(_ key: Swift.String, bundle: Foundation.Bundle? = nil, table: Swift.String? = nil) -> Swift.String?
+}
+extension UIKit.UIColor {
+  @objc(rglc_colorFromHexString:) public static func rglc_color(hex hexString: Swift.String) -> UIKit.UIColor
+}
+extension UIKit.UIColor {
+  @objc(rglc_asHexString) dynamic public func rglc_hexString() -> Swift.String
+}
+extension UIKit.UIColor {
+  @objc(rglc_isValidHexColorString:) public static func rglc_isValidHexColor(_ string: Swift.String) -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(RGLCSupervisor) final public class RegulaSupervisor : ObjectiveC.NSObject {
+  @objc public static func collectSnapshot() -> Foundation.Data
+  @objc deinit
+}

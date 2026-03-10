@@ -1,0 +1,6 @@
+framework module Pods_FYEO_FYEOUITests {
+  umbrella header "Pods-FYEO-FYEOUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

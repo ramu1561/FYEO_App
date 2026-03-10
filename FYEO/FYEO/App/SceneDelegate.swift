@@ -25,7 +25,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         )
 
         let signInVC = storyboard.instantiateViewController(
-            withIdentifier: "ConnectViewController"
+            withIdentifier: "SignInViewController"
         )
 
         let navController = UINavigationController(

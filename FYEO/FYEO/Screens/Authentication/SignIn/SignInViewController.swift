@@ -13,7 +13,12 @@ class SignInViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        AppShield.shared.start()
     }
+    
+    
+    
     //MARK: - Button Actions
     @IBAction func toggleButtons(_ sender: UIButton) {
         if sender.tag == 1{
@@ -31,10 +36,16 @@ class SignInViewController: UIViewController {
         }
         else{
             //Sign in
-            guard let verifyVC = UIStoryboard(name: "Authentication", bundle: nil).instantiateViewController(withIdentifier: String(describing: VerifyAuthViewController.self)) as? VerifyAuthViewController else {
+//            guard let verifyVC = UIStoryboard(name: "Authentication", bundle: nil).instantiateViewController(withIdentifier: String(describing: VerifyAuthViewController.self)) as? VerifyAuthViewController else {
+//                return
+//            }
+//            navigationController?.pushViewController(verifyVC, animated: true)
+            
+            
+            guard let faceCaptureVC = UIStoryboard(name: "Authentication", bundle: nil).instantiateViewController(withIdentifier: String(describing: FaceCaptureViewController.self)) as? FaceCaptureViewController else {
                 return
             }
-            navigationController?.pushViewController(verifyVC, animated: true)
+            navigationController?.pushViewController(faceCaptureVC, animated: true)
         }
     }
 }
