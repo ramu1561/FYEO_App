@@ -10,30 +10,24 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var appCoordinator: AppCoordinator?
+    
     func scene(
         _ scene: UIScene,
         willConnectTo session: UISceneSession,
         options connectionOptions: UIScene.ConnectionOptions
     ) {
+        
         guard let windowScene = scene as? UIWindowScene else { return }
-
+        
+        let navigationController = UINavigationController()
+        
         window = UIWindow(windowScene: windowScene)
-
-        let storyboard = UIStoryboard(
-            name: "Authentication",
-            bundle: nil
-        )
-
-        let signInVC = storyboard.instantiateViewController(
-            withIdentifier: "SignInViewController"
-        )
-
-        let navController = UINavigationController(
-            rootViewController: signInVC
-        )
-        window?.rootViewController = navController
+        window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
         
+        appCoordinator = AppCoordinator(navigationController: navigationController)
+        appCoordinator?.start()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -63,7 +57,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
-
 }
 

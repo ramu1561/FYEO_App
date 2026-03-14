@@ -7,12 +7,15 @@
 
 import UIKit
 
-class ConnectViewController: UIViewController {
+class ConnectViewController: BaseViewController {
 
     @IBOutlet weak var tblView: UITableView!
     
     private let viewModel = ConnectViewModel()
     
+    override var shouldShowHeader: Bool {
+        return false
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()

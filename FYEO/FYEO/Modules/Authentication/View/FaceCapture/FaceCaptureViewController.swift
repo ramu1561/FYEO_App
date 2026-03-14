@@ -19,6 +19,8 @@ class FaceCaptureViewController: UIViewController {
     var previewLayer: AVCaptureVideoPreviewLayer!
     var photoOutput: AVCapturePhotoOutput!
     
+    var coordinator: AuthCoordinator?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,6 +28,8 @@ class FaceCaptureViewController: UIViewController {
         captureBGView.isHidden = false
         confirmationBGView.isHidden = true
         setupCamera()
+        
+        coordinator?.start()
     }
     
     override func viewDidLayoutSubviews() {
